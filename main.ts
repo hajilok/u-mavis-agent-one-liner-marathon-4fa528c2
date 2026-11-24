@@ -4,7 +4,7 @@ import { join } from "node:path";
 const MAX_CHARS = 280;
 
 const ENTRY =
-  "My palm reader stopped halfway down my lifeline and asked me to pay up front.";
+  "I tell waiters I have a shellfish allergy just to watch a stranger briefly care if I live.";
 
 function validateEntry(text: string): string {
   if (text.includes("\n") || text.includes("\r")) {
