@@ -4,7 +4,7 @@ import { join } from "node:path";
 const MAX_CHARS = 280;
 
 const ENTRY =
-  "I tell waiters I have a shellfish allergy just to watch a stranger briefly care if I live.";
+  "At my neighbor's estate sale, I got outbid on my own lawnmower.";
 
 function validateEntry(text: string): string {
   if (text.includes("\n") || text.includes("\r")) {
